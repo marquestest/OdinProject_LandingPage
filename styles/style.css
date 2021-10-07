@@ -76,6 +76,7 @@ height: 400px;
 }
 
 .title{
+    padding: 8px;
     text-align: center;
     font-size: 36px;
     color: #1F2937;
@@ -148,6 +149,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .signup button{
@@ -157,8 +159,10 @@ align-items: center;
     justify-content: center;
     background-color: #3882F6;
     color: white;
+    border-width: 2px;
+   border-color: white;
+   border-style: solid;
     border-radius: 18px;
-    border-color: white;
     width: 90px;
     height: 50px;
     text-transform: uppercase;
@@ -184,3 +188,39 @@ align-items: center;
     height: 50px;
     color: white;
 }
+
+/* media query*/
+
+@media only screen and (max-width: 1254px) {
+    
+     .header{
+         width: 1254px;
+     }
+
+    .hero {
+      width: 1254px;
+    }
+
+    .title{
+        width: 1254px;
+    }
+    
+   .quote-sec{
+    width: 1254px;
+   }
+
+    .quote{
+        width: 1254px;
+    }
+
+    .credit-quote{
+        width: 1254px;
+    }
+
+    .sign-up{
+        width: 1254px;
+    }
+    .footer{
+        width: 1254px;
+    }
+  }
